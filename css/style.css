@@ -18,13 +18,7 @@
 }
 @font-face {
     font-family: 'AnoStencil-Regular';
-    src: url('fonts/AnoStencilW00Regular.otf');
-    /*
-    src: url('../fonts/AnoStencilW00Regular.otf') format('opentype'),
-    url('../fonts/3899B2_2_0.woff2') format('woff2'),
-    url('../fonts/3899B2_2_0.woff') format('woff'),
-    url('../fonts/3899B2_2_0.ttf') format('truetype');
-    */
+    src: url('../fonts/AnoStencilW00Regular.otf');
 }
 @font-face {
     font-family: 'AnoStencil-Thin';
@@ -1121,6 +1115,6 @@ ul_c {
 
 /* Set the size of the div element that contains the map */
 #map {
-    height: 400px;  /* The height is 400 pixels */
+    height: 720px;  /* The height is 400 pixels */
     width: 100%;  /* The width is the width of the web page */
 }
