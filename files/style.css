@@ -18,11 +18,13 @@
 }
 @font-face {
     font-family: 'AnoStencil-Regular';
-    src: url('../fonts/3899B2_2_0.eot');
-    src: url('../fonts/3899B2_2_0.eot?#iefix') format('embedded-opentype'),
+    src: url('fonts/AnoStencilW00Regular.otf');
+    /*
+    src: url('../fonts/AnoStencilW00Regular.otf') format('opentype'),
     url('../fonts/3899B2_2_0.woff2') format('woff2'),
     url('../fonts/3899B2_2_0.woff') format('woff'),
     url('../fonts/3899B2_2_0.ttf') format('truetype');
+    */
 }
 @font-face {
     font-family: 'AnoStencil-Thin';
@@ -649,7 +651,7 @@ nav .navbar-right li a:hover{
         width: 100%;
     }
     .header{
-        background-image: linear-gradient(rgba(55, 191, 170, 0)) 62%, rgba(93, 217, 193, 0.29));
+        background-image: linear-gradient(rgba(55, 191, 170, 0) 62%, rgba(93, 217, 193, 0.29) 100%);
     }
     .slick-prev, .slick-next {
         width: 30px;
@@ -683,6 +685,7 @@ nav .navbar-right li a:hover{
         margin-top: 20px;
     }
     #hero h1{
+        font-family: AnoStencil-Regular;
         font-size: 1.8em;
         margin-top: 100px;
     }
