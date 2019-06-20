@@ -1,71 +1,10 @@
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("https://hello.myfonts.net/count/3899b2");
-@font-face {
-    font-family: 'AnoStencil-Bold';
-    src: url('../fonts/3899B2_0_0.eot');
-    src: url('../fonts/3899B2_0_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/3899B2_0_0.woff2') format('woff2'),
-    url('../fonts/3899B2_0_0.woff') format('woff'),
-    url('../fonts/3899B2_0_0.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'AnoStencil-Light';
-    src: url('../fonts/3899B2_1_0.eot');
-    src: url('../fonts/3899B2_1_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/3899B2_1_0.woff2') format('woff2'),
-    url('../fonts/3899B2_1_0.woff') format('woff'),
-    url('../fonts/3899B2_1_0.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'AnoStencil-Regular';
-    src: url('../fonts/3899B2_2_0.eot');
-    src: url('../fonts/3899B2_2_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/3899B2_2_0.woff2') format('woff2'),
-    url('../fonts/3899B2_2_0.woff') format('woff'),
-    url('../fonts/3899B2_2_0.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'AnoStencil-Thin';
-    src: url('../fonts/3899B2_3_0.eot');
-    src: url('../fonts/3899B2_3_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/3899B2_3_0.woff2') format('woff2'),
-    url('../fonts/3899B2_3_0.woff') format('woff'),
-    url('../fonts/3899B2_3_0.ttf') format('truetype');
-}
 
 
 /* Importing fonts */
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Noto+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
 
-@font-face {
-    font-family: "Flaticon";
-    src: url("../fonts/Flaticon.eot");
-    src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Flaticon.woff2") format("woff2"),
-    url("../fonts/Flaticon.woff") format("woff"),
-    url("../fonts/Flaticon.ttf") format("truetype"),
-    url("../fonts/Flaticon.svg#Flaticon") format("svg");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-    @font-face {
-        font-family: "Flaticon";
-        src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
-    }
-}
-
-[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
-[class^="flaticon-"]:after, [class*=" flaticon-"]:after {
-    font-family: Flaticon;
-    font-size: 20px;
-    font-style: normal;
-    margin-left: 20px;
-}
-
-.flaticon-facebook:before { content: "\f100"; }
-.flaticon-twitter-circular-button:before { content: "\f101"; }
 
 body {
     font-family: 'Noto Sans', sans-serif;
