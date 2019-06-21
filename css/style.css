@@ -125,7 +125,7 @@ nav{
     /*
     background: linear-gradient(to bottom,  rgba(93, 217, 193, 0.29) 50%, rgba(55, 191, 170, 0) 75%, #FFFFFF);
     */
-    background: linear-gradient(to bottom,  rgba(216, 65, 77, 0.29) 50%, rgba(229, 96, 94, 0) 75%, #FFFFFF);
+    background: linear-gradient(to bottom,  rgba(216, 65, 77, 0.29) 12.5%, #FFFFFF);
     border: none !important;
     border-radius: 0;
 }
@@ -1053,6 +1053,6 @@ ul_c {
 
 /* Set the size of the div element that contains the map */
 #map {
-    height: 720px;  /* The height is 400 pixels */
+    height: 720px;  /* The height is 720 pixels */
     width: 100%;  /* The width is the width of the web page */
 }
